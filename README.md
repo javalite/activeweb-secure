@@ -10,7 +10,7 @@ You must have maven available in order to build and run the ActiveWeb applicatio
 The easiest way to install and run is to clone this repository, and then run maven to download, and start the server.
 
 ```
-$ git clone git@github.com:javalite/activeweb-security.git
+$ git clone git@github.com:javalite/activeweb-secure.git
 $ cd activeweb-security
 $ mvn jetty:run
 ```
