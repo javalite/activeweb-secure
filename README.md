@@ -1,8 +1,7 @@
 ActiveWeb with Login/Logout Security
 ===================
 
-Provired barebones startup app with basic login/logout security built in. This app has a private page protected by a login and a public page that is not protected. 
-
+Provided barebones startup app with basic login/logout security built in. This app has a private page protected by a login and a public page that is not protected.
 
 ### Usage
 
