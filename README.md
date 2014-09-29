@@ -11,7 +11,7 @@ The easiest way to install and run is to clone this repository, and then run mav
 
 ```
 $ git clone git@github.com:javalite/activeweb-secure.git
-$ cd activeweb-security
+$ cd activeweb-secure
 $ mvn jetty:run
 ```
 
