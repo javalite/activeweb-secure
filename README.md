@@ -5,7 +5,7 @@ Provided barebones startup app with basic login/logout security built in. This a
 
 ### Usage
 
-You must have maven available in order to build and run the ActiveWeb application. If it's not installed you can install on a Mac using Brew ```$ brew install maven```
+You must have maven available in order to build and run the ActiveWeb application. 
 
 The easiest way to install and run is to clone this repository, and then run maven to download, and start the server.
 
