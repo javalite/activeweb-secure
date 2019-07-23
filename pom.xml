@@ -9,7 +9,7 @@
     <name>ActiveWeb Example using Login/Logout security</name>
 
     <properties>
-        <activeweb.version>1.9</activeweb.version>
+        <activeweb.version>2.3</activeweb.version>
     </properties>
     
     <build>
@@ -31,15 +31,17 @@
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.2.3.v20140905</version>
+                <version>9.4.1.v20170120</version>
                 <configuration>
+                    <reload>manual</reload>
                     <scanIntervalSeconds>10000</scanIntervalSeconds>
                     <systemProperties>
                         <systemProperty>
@@ -57,7 +59,6 @@
                     </systemProperties>
                 </configuration>
             </plugin>
-
            <plugin>
                 <groupId>org.javalite</groupId>
                 <artifactId>activejdbc-instrumentation</artifactId>
@@ -77,7 +78,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -100,12 +101,12 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
-            <version>1.6.4</version>
+            <version>1.7.25</version>
         </dependency>
         <dependency>
             <groupId>com.sun</groupId>
             <artifactId>tools</artifactId>
-            <version>1.7.0</version>
+            <version>1.8.0</version>
             <scope>system</scope>
             <systemPath>${java.home}/../lib/tools.jar</systemPath>
         </dependency>
